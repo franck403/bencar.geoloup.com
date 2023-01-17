@@ -1,3 +1,5 @@
 document.getElementById('WIX_ADS').remove();
-document.getElementById('site-root').add();
 
+const site = document.getElementById('site-root');
+
+site.setAttribute("style", "margin-top:0px;");
