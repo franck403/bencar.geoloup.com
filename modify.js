@@ -1,5 +1,2 @@
-const element = document.getElementById('WIX_ADS');
-element.remove();
-
-const site = document.getElementById('site-root');
-site.setAttribute("style", "margin-top:0px;");
+$("#iframes").contents().find("#WIX_ADS").remove();
+$("#iframes").contents().find('#site-root').css("margin-top",'0px')
